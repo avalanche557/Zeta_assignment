@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.cell {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black
+}
+
+.cellRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.foodCell{
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  background-color: green;
+
+}
+
+.snakeCell{
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  background-color: red !important;
+}
